@@ -10,4 +10,6 @@ const server = http.createServer((req, res)=>{
     res.end(`Server running on IP: ${ip_address} and port: ${port}`);
 })
 
-server.listen(port, () => {});
+server.listen(port, () => {
+    console.log(`Server running on IP: ${ip_address} and port: ${port}`)
+});
