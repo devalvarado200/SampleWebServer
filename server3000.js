@@ -7,10 +7,7 @@ const port = 3000;
 const server = http.createServer((req, res)=>{
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/plain");
-    res.end("Sample Web Server, Port: 3000");
+    res.end(`Server running on IP: ${ip_address} and port: ${port}`);
 })
 
-server.listen(port, () => {
-    console.log (`My IP is: ${ip_address}`);
-    console.log(`Server running on port: ${port}`);
-})
+server.listen(port, () => {});
