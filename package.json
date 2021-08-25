@@ -1,0 +1,19 @@
+{
+  "name": "samplewebserver",
+  "version": "1.0.0",
+  "description": "Deploy a sample web server to run on ports 80, 443 or 3000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devalvarado200/SampleWebServer.git"
+  },
+  "author": "Victor Alvarado (Secure my Sanity)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devalvarado200/SampleWebServer/issues"
+  },
+  "homepage": "https://github.com/devalvarado200/SampleWebServer#readme"
+}
